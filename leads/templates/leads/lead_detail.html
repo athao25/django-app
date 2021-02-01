@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leads</title>
+</head>
+<style>
+    .lead {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 10px;
+        background-color: grey;
+        width: 100%;
+    }
+</style>
+<body>
+<a href="/leads/">Go back to leads</a>
+<hr>
+<h1>Details of {{ lead.first_name }}</h1>
+<p>This persons age: {{ lead.age }}</p>
+</body>
+</html>
